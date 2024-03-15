@@ -1,0 +1,71 @@
+.aside {
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    left: 0;
+    width: 20%;
+    max-width: 150px;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.aside__logo {
+    margin: 0;
+    color: var(--col-white);
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.aside__content {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: max-content max-content min-content;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.aside__content-text {
+    color: var(--col-white);
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.695em;
+    margin: 0;
+
+}
+
+.aside__content-line {
+    display: flex;
+    height: 100px;
+    background-color: var(--col-white);
+    width: 1px;
+    margin: 60px 0;
+    margin-left: 50%;
+
+}
+
+.aside__content-social {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../assets/ui/phone.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

@@ -1,0 +1,121 @@
+.five {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--col-white);
+    background-color: var(--bg-dark);
+}
+
+.five__bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.five__content {
+    max-width: 70%;
+}
+
+.five__content-heading {
+    margin-left: 50%;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.3em;
+    text-align: left;
+
+}
+
+.five__content-slider {
+    display: flex;
+    gap: 60px;
+}
+
+.five__content-slider-counter {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    font-family: Bruno Ace;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.five__content-slider-counter-btn {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.five__content-slider-counter-btn#one {
+    left: 50%;
+}
+
+.five__content-slider-counter-btn#two {
+    left: 82%;
+    top: 12%;
+}
+
+.five__content-slider-counter-btn#three {
+    left: 97.5%;
+    top: 65%;
+}
+
+.five__content-slider-counter-btn#four {
+    left: 50%;
+    top: 99%;
+}
+
+.five__content-slider-counter-btn#five {
+    left: 3%;
+    top: 65%;
+}
+
+.five__content-slider-counter-btn#six {
+    left: 18%;
+    top: 12%;
+
+}
+
+
+
+
+.five__content-slider-gridWrapper {
+    width: 100%;
+    max-width: 500px;
+    height: 250px;
+    overflow: hidden;
+
+}
+
+.five__content-slider-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 100%;
+    transition: all .5s;
+}
+
+.five__content-slider-grid-el {
+    max-width: 100%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.five__content-slider-grid-el-text {}

@@ -1,0 +1,40 @@
+.pointBtn {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.pointBtn__point {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 7px;
+    height: 7px;
+    background-color: var(--col-grey);
+    transition: all .5s;
+    border-radius: 50%;
+}
+
+.pointBtn__point_active {
+    background-color: var(--col-main);
+}
+
+.pointBtn__border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 7px;
+    height: 7px;
+    border: 1px solid var(--col-grey);
+    transition: all .5s;
+    border-radius: 50%;
+}
+
+.pointBtn__border_active {
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--col-main);
+}
